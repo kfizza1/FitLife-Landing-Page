@@ -268,7 +268,7 @@
     }
     #about .border,
     #final .upper .border{
-        width: 32%;
+        width: 30%;
     }
     #help{
         padding: 20px 5px;
@@ -325,4 +325,5 @@ font-size: 10px;
     }
 
 }
+
 
