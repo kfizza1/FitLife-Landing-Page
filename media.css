@@ -260,7 +260,7 @@
     #features h2,
     #help h2,
     #final .upper h2 {
-        font-size: .8rem;
+        font-size: .7rem;
     }
     #about,
     #features{
@@ -319,4 +319,5 @@ font-size: 10px;
     #form input{
         padding: 5px;
     }
+
 }
