@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: #e4e2e2d5;
+    max-width: 100vw;
+}
+header{
+    color: #f7f4f4;
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    padding: 40px 80px;
+    overflow: hidden;
+}
+h1{
+    width: 35%;
+    font-size: 2.5rem;
+}
+.btns{
+    display: flex;
+}
+button{
+    padding: 10px 15px;
+    color: #f7f4f4;
+    background: #159676;
+    border: none;
+    box-shadow: 3px 4px 10px #585858;
+    margin: 10px;
+    cursor: pointer;
+}
+section{
+    padding: 40px 90px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 40px;
+}
+.border{
+        width: 38%;
+    background: #bebdbc;
+    height: 2px;
+}
+.heading h2 .green{
+    color: #159676;
+}
+#about .cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#about .cards .card{
+    padding: 15px;
+    background: #f8f5f5;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 3px 4px 10px grey;
+}
+.cards .card .material-symbols-outlined{
+    display: block;
+    margin: -25px auto 10px;
+    background: #159676;
+    color: #f7f4f4;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+}
+.cards .card .border{
+    display: inline-block;
+    height: 2px;
+    width: 90%;
+    background: #a5a2a2;
+}
+#features{
+    background: #f8f5f5;
+    text-align: center;
+}
+.features{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+.features .feature{
+    background: #e4e2e2d5;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 10px #8080809c;
+}
+.features .feature h4{    
+    border-bottom: 2px solid #88898f;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.features .feature h4 span{
+    color: #159676;
+}
+#help .help{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#help .help p{
+    background: #d8d9db;
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+#help .help p span{
+    background: #159676;
+    padding: 5px 12px;
+    border-radius: 50%;
+    margin-left: -17px;
+    margin-right: 15px;
+}
+#final{
+    padding: 40px 0;
+    color: #f7f4f4;
+    background: #d8d9db;
+}
+#final .upper{
+    background: #394d53;
+    padding: 20px 0;
+}
+#final .upper .review{
+    border: 2px solid #bebdbc;
+    margin: 0 auto 20px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 45%;
+}
+.upper .review .rating{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.upper .review .rating span{
+    color: #d8d827;
+    font-size: 22px;
+}
+.upper .review .rating span:nth-child(6){
+    font-size: 20px;
+    color: #f8f5f5;
+}
+.upper .review p:nth-child(2){
+    text-align: center;
+    margin: 0 10px;
+}
+.upper .review p:nth-child(3){
+    text-align: end;
+}
+.lower{
+    position: relative;
+}
+.lower .heading .border{
+    width: 27%;
+}
+.lower .heading h2{
+    background: #159676;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.lower button{
+    background: #394d53;
+    position: absolute;
+    left: 43%;
+    top: 65%;
+    border-radius: 4px;
+}
+button:hover{
+    font-weight: bold;
+}
+#form{
+    border: 2px solid #585858;
+    box-shadow: 3px 4px 10px #585858;
+    width: 70%;
+    padding: 15px;
+    display: none;
+    gap: 5px;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 20%;
+    background: #f7f4f4;
+}
+#form h2{
+    text-align: center;
+}
+#form label{
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#form input{
+    padding: 10px;
+    border: none;
+    background: #dedde4;
+    box-shadow: inset 3px 3px 10px #c1c5c9;
+}
+#form .login {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 12px;
+}
+.login #loginBtn{
+    color: #585858;
+    cursor: pointer;
+}
+.login #loginBtn:hover{
+    color: #1b1bd1;
+    text-decoration: underline;
+}
+#form #close:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
